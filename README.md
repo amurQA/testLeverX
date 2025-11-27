@@ -59,11 +59,10 @@ Tests can be run in the cloud via GitHub Actions without any local setup require
 
 ### 2. View results and download report
 
-1. After the workflow run completes, go to the specific run page
-2. For example: https://github.com/amurQA/testLeverX/actions/runs/19722660826
-3. In the **"Artifacts"** section, find the `playwright-report` artifact
-4. Click on the artifact to download it
-5. Extract the archive and open the `index.html` file in your browser to view the report
+1. After the workflow run completes, go to the specific run page. For example: https://github.com/amurQA/testLeverX/actions/runs/19722660826
+2. In the **"Artifacts"** section, find the `playwright-report` artifact
+3. Click on the artifact to download it
+4. Extract the archive and open the `index.html` file in your browser to view the report
 
 ## Architecture
 
@@ -77,7 +76,7 @@ Tests are organized by functionality:
 
 - `login.spec.ts` - authentication tests
 - `buy.spec.ts` - purchase process tests
-- `sort.spec.ts` - product sorting tests
+- `sort.spec.ts` - products sorting tests
 
 ### 3. Data management
 
