@@ -130,13 +130,7 @@ export default class InventoryPage extends BasePage {
   }
 
   @step((args) => `Sort inventory in the next order: ${args[0]}`)
-  async sortInventory(
-    label:
-      | "Name (A to Z)"
-      | "Name (Z to A)"
-      | "Price (low to high)"
-      | "Price (high to low)"
-  ) {
+  async sortInventory(label: SortOptions) {
     await expect(
       this.sortBtn,
       "Expect sort button to be visible"
